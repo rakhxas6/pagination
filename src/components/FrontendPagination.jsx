@@ -22,6 +22,7 @@ const FrontendPagination = () => {
       selectedPage !== page
     )
       setPage(selectedPage);
+     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   useEffect(() => {
